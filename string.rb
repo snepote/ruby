@@ -1,3 +1,5 @@
+puts 's = "foobar" is the same as s = String.new("foobar")'
+
 le = Dir.entries("..")
 #print le.include?("intjoy")
 
