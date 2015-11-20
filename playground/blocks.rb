@@ -1,4 +1,4 @@
-comics = load_­comics('/c­omics.txt'­)
+comics = load_comics('/c­omics.txt')
 => {"Achewood"=>"http://achewood.com/", "Dinosaur Comics"=>"http://qwantz.com/", "Perry Bible Fellowship"=>"http://cheston.com/pbf/archive.html", "Get Your War On"=>"http://mnftiu.cc/"}
 > next
 > require 'popu­p'
