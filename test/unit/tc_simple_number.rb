@@ -1,5 +1,5 @@
-require_relative "simple_number"
-require "test/unit"
+require_relative 'simple_number'
+require 'test/unit'
  
 class TestSimpleNumber < Test::Unit::TestCase
  
