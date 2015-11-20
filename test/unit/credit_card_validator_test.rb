@@ -1,7 +1,6 @@
 require 'test/unit'
 
 class CreditCardValidatorTest < Test::Unit::TestCase
-
   def setup
     @cards = [
       {number: '4485 6665 2618 6303', CVV2: '441', expiration_date: '10/2019', type: 'Visa', bank: 'Bmw Bank of North America'},
@@ -19,9 +18,7 @@ class CreditCardValidatorTest < Test::Unit::TestCase
   end
 
   private
-
   def is_valid(card)
     true
   end
-
 end

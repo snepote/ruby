@@ -1,4 +1,4 @@
-require_relative '../calc.rb'
+require_relative '../../klass/calc.rb'
 require 'test/unit'
 
 class CalcTest < Test::Unit::TestCase
@@ -18,5 +18,4 @@ class CalcTest < Test::Unit::TestCase
     assert_equal(-3, @calc.multiply(-1, 3))
     assert_equal(0, @calc.multiply(0, 3))
   end
-
 end

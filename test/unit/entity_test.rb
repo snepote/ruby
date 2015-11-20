@@ -1,8 +1,7 @@
-require_relative "../entity.rb"
-require "test/unit"
+require_relative '../../klass/entity'
+require 'test/unit'
 
-class TestEntity < Test::Unit::TestCase
-  
+class EntityTest < Test::Unit::TestCase
   def setup
     @id = 1, @table = "MyTable"
     @entity = Entity.new(@table, @id)

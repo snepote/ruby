@@ -1,4 +1,5 @@
-class Entity
+module Klass
+  class Entity
     attr_reader :table, :ident
 
     def initialize(table, ident)
@@ -17,4 +18,5 @@ class Entity
     def get(col)
         "SELECT #{col} FROM #{@table} WHERE id = #{@ident}"
     end
+  end
 end

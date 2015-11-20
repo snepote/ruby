@@ -1,9 +1,9 @@
-require_relative '../movie.rb'
+require_relative '../../klass/movie.rb'
 require 'test/unit'
 
-class TestMovie < Test::Unit::TestCase
+class MovieTest < Test::Unit::TestCase
   def setup
-    @movie = Movie.new(1)
+    @movie = Klass::Movie.new(1)
   end
 
   def test_title
