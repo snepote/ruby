@@ -4,7 +4,7 @@ require 'test/unit'
 class EntityTest < Test::Unit::TestCase
   def setup
     @id = 1, @table = "MyTable"
-    @entity = Entity.new(@table, @id)
+    @entity = Klass::Entity.new(@table, @id)
   end
 
   def test_new

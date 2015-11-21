@@ -3,7 +3,7 @@ require 'test/unit'
 
 class CalcTest < Test::Unit::TestCase
   def setup
-    @calc = Calc.new
+    @calc = Klass::Calc.new
   end
 
   def test_sum_numbers
