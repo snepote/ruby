@@ -1,3 +1,7 @@
+
+urls = ['http://www.google.de/', 'http://www.google.com/']
+puts urls.join(", ")
+
 def squares_seq(min = 1, max = 1)
     puts (min..max).map { |i| i**2 }.join(', ')
 end
