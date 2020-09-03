@@ -1,8 +1,6 @@
-def fizzbuzz(number)
-  output = ''
-  output = 'Fizz' if number % 3 == 0
+1.upto(100) do |number|
+  (number % 3 == 0) ? output = 'Fizz' : output = ''
   output += 'Buzz' if number % 5 == 0
   output = number if output.empty?
-  "#{number} = #{output}"
+  puts "#{number} = #{output}"
 end
-(1..100).map{ |number| puts fizzbuzz number }
