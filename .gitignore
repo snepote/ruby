@@ -40,4 +40,6 @@ build/
 
 .idea/
 
+page-generator/pages/*
+
 .DS_Store
