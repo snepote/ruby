@@ -9,6 +9,9 @@
 /test/version_tmp/
 /tmp/
 
+dummy_data/*.csv
+page-generator/pages/*
+
 ## Specific to RubyMotion:
 .dat*
 .repl_history
@@ -39,7 +42,5 @@ build/
 /screenshots
 
 .idea/
-
-page-generator/pages/*
 
 .DS_Store
