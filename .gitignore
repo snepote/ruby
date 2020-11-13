@@ -12,6 +12,8 @@
 dummy_data/*.csv
 page-generator/pages/*
 page-generator/*.csv
+verticals/pages/*
+verticals/*.csv
 
 ## Specific to RubyMotion:
 .dat*
